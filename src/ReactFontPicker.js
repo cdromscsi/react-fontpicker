@@ -1,9 +1,10 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
+import { PropTypes } from 'prop-types';
 
 export default class FontPicker extends Component {
 
 	constructor(props) {
-    super(props);
+    		super(props);
 
 		// Bind component methods to this context
 		this.onWrapperClick = this.onWrapperClick.bind(this);
@@ -14,7 +15,7 @@ export default class FontPicker extends Component {
 			isOptionsVisible: false,
 			selectedFont: this.props.value
 		}
-  }
+  	}
 
 	componentDidMount() {
 
