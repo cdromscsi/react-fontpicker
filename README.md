@@ -1,5 +1,7 @@
 # react-font-picker
 
+> ATTENTION: Looking for maintainers! This module needs a good rewrite to work with latest React
+
 This is a ReactJS font picker component with Material Design styling as default styling. It exports the `<FontPicker>` component that works as standalone with local component state or with app state / store (like Redux).
 
 ## Demo & Examples
